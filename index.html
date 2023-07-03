@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="gtn.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Monoton&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Guess The Number</h1>
+      <h4 class="between">(The Number Needs to be Between 1 and 20 ! )</h3>
+      <button class="again">Play Again </button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="first">
+        <input type="number" class="guess" />
+        <button class="check">Check</button>
+      </section>
+
+      <section class="second">
+        <p class="message">Try to Guess...</p>
+        <p class="label-score">
+          <i class="fa-sharp fa-solid fa-star"></i> Score :
+          <span class="score">10</span>
+        </p>
+        <p class="label-highscore">
+          <i class="fa-sharp fa-solid fa-medal"></i>
+          Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

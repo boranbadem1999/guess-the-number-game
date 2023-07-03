@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(37, 48, 131);
+  color: white;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Monoton', sans-serif;
+  position: absolute;
+  height: 8rem;
+  align-items: center;
+  margin-top: 2.5rem;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  word-spacing: 0.3em;
+}
+.number {
+  font-family: 'Monoton', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  font-size: 6rem;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  color: rgb(232, 229, 235);
+}
+
+.between {
+  font-family: 'Bungee Inline', 'cursive';
+  position: absolute;
+  top: 5px;
+  right: 0.5rem;
+}
+
+.again {
+  font-family: 'Bungee Inline', sans-serif;
+  border: none;
+  font-weight: bold;
+  background-color: white;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 20%;
+  height: 3.5rem;
+  cursor: pointer;
+  word-spacing: 4px;
+  border-radius: 12px;
+}
+.again:hover {
+  background-color: rgb(205, 205, 205);
+}
+.again:active {
+  background-color: black;
+  color: white;
+  transition: 0.17s;
+  transform: 50;
+}
+
+main {
+  height: 65vh;
+  color: rgb(220, 217, 217);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Bungee Inline', sans-serif;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50rem;
+}
+
+.second {
+  width: 50rem;
+  font-size: 2.5rem;
+}
+
+.guess {
+  border: 5px solid rgb(198, 197, 197);
+  width: 20rem;
+  display: block;
+  height: 8rem;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 3rem;
+  background-color: inherit;
+  font-family: 'Bungee Inline', sans-serif;
+  color: white;
+}
+
+.check {
+  font-family: 'Bungee Inline', sans-serif;
+  border: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  width: 8rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.check:hover {
+  background-color: rgb(205, 205, 205);
+}
+.check:active {
+  background-color: black;
+  color: white;
+  transition: 0.15s;
+}
+
+.message {
+  font-family: 'Monoton', sans-serif;
+  word-spacing: 8px;
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+.label-score {
+  margin-bottom: 1rem;
+}
